@@ -13,7 +13,7 @@ var app = express();
 var mongoose = require('mongoose');
 // Set up mongoose connection
 var dev_db_url =
-	'mongodb+srv://darshan:toor@cluster0.20un7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+	'mongodb+srv://cooluser:coolpassword@cluster0-mbdj7.mongodb.net/local_library?retryWrites=true';
 var mongoDb = process.env.MONGODB_URI || dev_db_url;
 
 var mongoDb = mongoose.connect(mongoDb, {
